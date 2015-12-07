@@ -4,6 +4,8 @@ BeadTracker
 Complete magnetic tweezers setup code as used in the Nynke Dekker Lab, TUDelft, Netherlands (http://nynkedekkerlab.tudelft.nl/).
 Using qtrk for image processing (see submodule), so hundreds of beads can be tracked simultaneously.
 
+Original work by Jelmer Cnossen (jcnossen).
+
 This code is used on several setups within our lab. It does need some work to get running on each specific hardware configuration.
 (different motors, camera's, etc).
 
@@ -12,5 +14,4 @@ I tried my best to make a decent design, but spaghetti wires and chaos still ens
 Labview should not be used for anything that requires more than 2 days of work.
 
 For questions:
-jordi.(remove this)wassenburg@(remove this)gmail.com
-
+j.p.a.(remove this)wassenburg@(remove this)tudelft.nl
