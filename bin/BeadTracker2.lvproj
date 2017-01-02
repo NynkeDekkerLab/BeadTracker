@@ -37,8 +37,13 @@
 		<Item Name="Main" Type="Folder" URL="../Main">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Assets" Type="Folder">
+			<Item Name="ReadDefaultConfig.vi" Type="VI" URL="../Assets/ReadDefaultConfig.vi"/>
+			<Item Name="UpdateCameraSettings.vi" Type="VI" URL="../Assets/UpdateCameraSettings.vi"/>
+		</Item>
 		<Item Name="BeadTrackerMain.vi" Type="VI" URL="../BeadTrackerMain.vi"/>
 		<Item Name="SetupConfiguration.vi" Type="VI" URL="../SetupConfiguration.vi"/>
+		<Item Name="config_text.vi" Type="VI" URL="../config_text.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
