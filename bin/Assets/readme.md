@@ -5,7 +5,7 @@ A list of files + description follows.
 # ReadDefaultConfig.vi
 
 This reads the file default-config.xml, which is expected to be in the root directory of the tracker. (i.e. bin/).
-It also accepts a FILE input and outputs (MeasurementConfig config, Path path, Error error out);
+It also accepts a STRING OR PATH input and outputs (MeasurementConfig config, Path path, Error error out);
 
 # UpdateCameraSettings.vi
 
