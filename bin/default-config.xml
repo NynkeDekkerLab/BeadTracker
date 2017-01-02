@@ -1,0 +1,390 @@
+<Cluster>
+<Name>MeasureConfig</Name>
+<NumElts>20</NumElts>
+<Array>
+<Name>Bead locations</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>X</Name>
+<Val></Val>
+</I32>
+<I32>
+<Name>Y</Name>
+<Val></Val>
+</I32>
+</Cluster>
+</Array>
+<I32>
+<Name>ROI</Name>
+<Val>80</Val>
+</I32>
+<Path>
+<Name>Experiment base path</Name>
+<Val></Val>
+</Path>
+<String>
+<Name>Image output subdir</Name>
+<Val>images</Val>
+</String>
+<EW>
+<Name>Output mode</Name>
+<Choice>None</Choice>
+<Choice>Track</Choice>
+<Choice>SaveImages</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>Traces output subdir</Name>
+<Val>traces</Val>
+</String>
+<Cluster>
+<Name>QTrk Settings</Name>
+<NumElts>21</NumElts>
+<I32>
+<Name>Image width</Name>
+<Val>100</Val>
+</I32>
+<I32>
+<Name>Image height</Name>
+<Val>100</Val>
+</I32>
+<I32>
+<Name>Number of threads (CPU based)</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>CUDA Device</Name>
+<Val>-2</Val>
+</I32>
+<SGL>
+<Name>COM Background correction factor</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>ZLUT MinRadius</Name>
+<Val>2.00000</Val>
+</SGL>
+<SGL>
+<Name>ZLUT Radial sample density</Name>
+<Val>2.00000</Val>
+</SGL>
+<SGL>
+<Name>ZLUT Angular sample density</Name>
+<Val>0.70000</Val>
+</SGL>
+<SGL>
+<Name>ZLUT ROI Coverage</Name>
+<Val>1.00000</Val>
+</SGL>
+<I32>
+<Name>QI Iterations</Name>
+<Val>5</Val>
+</I32>
+<SGL>
+<Name>QI MinRadius</Name>
+<Val>2.00000</Val>
+</SGL>
+<SGL>
+<Name>QI Radial sample density</Name>
+<Val>2.00000</Val>
+</SGL>
+<SGL>
+<Name>QI Angular sample density</Name>
+<Val>0.70000</Val>
+</SGL>
+<SGL>
+<Name>QI ROI Coverage</Name>
+<Val>1.00000</Val>
+</SGL>
+<SGL>
+<Name>QI Angular Step 
+Iteration Factor</Name>
+<Val>1.20000</Val>
+</SGL>
+<I32>
+<Name>XCOR Profile Length</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>XCOR Profile Width</Name>
+<Val>128</Val>
+</I32>
+<I32>
+<Name>XCOR Iterations</Name>
+<Val>32</Val>
+</I32>
+<I32>
+<Name>Gaussian 2D Fit Iterations</Name>
+<Val>2</Val>
+</I32>
+<SGL>
+<Name>Gaussian 2D Sigma (pixels)</Name>
+<Val>3.00000</Val>
+</SGL>
+<I32>
+<Name>Downsample</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Tracking Config</Name>
+<NumElts>10</NumElts>
+<I32>
+<Name>Number of steps</Name>
+<Val>100</Val>
+</I32>
+<SGL>
+<Name>ZLUT stepsize (um)</Name>
+<Val>5.00000E-2</Val>
+</SGL>
+<SGL>
+<Name>Z correction factor</Name>
+<Val>0.88000</Val>
+</SGL>
+<SGL>
+<Name>Start piezo Z (um)</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Pixel size (nm)</Name>
+<Val>146.00000</Val>
+</SGL>
+<EW>
+<Name>2D Localization Type</Name>
+<Choice>Center-of-Mass</Choice>
+<Choice>1D Cross-Correlation</Choice>
+<Choice>Quadrant Interpolation</Choice>
+<Choice>Gaussian 2D MLE</Choice>
+<Choice>QI + ZLUTAlign</Choice>
+<Choice>ZLUTAlign</Choice>
+<Choice>QI + FourierLUT</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Z Command (None)</Name>
+<Choice>Nothing</Choice>
+<Choice>ComputeZ</Choice>
+<Choice>BuildRadialZLUT</Choice>
+<Choice>BuildImageZLUT</Choice>
+<Choice>RadialZLUT+ImageZLUT</Choice>
+<Val>1</Val>
+</EW>
+<Boolean>
+<Name>Z Piezo scale</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>ZLUT Building
+images per frame</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>ZLUT Bias correction planes</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<String>
+<Name>Experiment Name</Name>
+<Val>test</Val>
+</String>
+<Cluster>
+<Name>Program</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>Commands</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>ExProg Command</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>cmd</Name>
+<Choice>wait</Choice>
+<Choice>move</Choice>
+<Choice>event</Choice>
+<Choice>idle</Choice>
+<Choice>when</Choice>
+<Choice>section</Choice>
+<Choice>stop</Choice>
+<Val></Val>
+</EW>
+<EW>
+<Name>axis</Name>
+<Choice>no axis</Choice>
+<Choice>magrot</Choice>
+<Choice>magpos</Choice>
+<Choice>px</Choice>
+<Choice>py</Choice>
+<Choice>pz</Choice>
+<Choice>camx</Choice>
+<Choice>camy</Choice>
+<Val></Val>
+</EW>
+<DBL>
+<Name>value/pos</Name>
+<Val></Val>
+</DBL>
+<DBL>
+<Name>speed</Name>
+<Val></Val>
+</DBL>
+<String>
+<Name>name</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Motor Axis accuracy conditions</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>Magnet Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Magnet rotation</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Camera</Name>
+<NumElts>2</NumElts>
+<SGL>
+<Name>X</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Y</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>Piezo XY</Name>
+<NumElts>2</NumElts>
+<SGL>
+<Name>X</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Y</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<DBL>
+<Name>Piezo Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Axis flags</Name>
+<NumElts>5</NumElts>
+<Boolean>
+<Name>Magnet Z</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Magnet rotation</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Camera</Name>
+<NumElts>2</NumElts>
+<Boolean>
+<Name>X</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Y</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Piezo XY</Name>
+<NumElts>2</NumElts>
+<Boolean>
+<Name>X</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Y</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Boolean>
+<Name>Piezo Z</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+<Array>
+<Name>ZLUT</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<SGL>
+<Name>Numeric Control</Name>
+<Val></Val>
+</SGL>
+</Array>
+<Cluster>
+<Name>Camera settings</Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>Framerate (Hz)</Name>
+<Val>60</Val>
+</I32>
+<I32>
+<Name>Exposure time (us)</Name>
+<Val>5000</Val>
+</I32>
+<Cluster>
+<Name>Image size</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>Width</Name>
+<Val>1280</Val>
+</I32>
+<I32>
+<Name>Height</Name>
+<Val>1024</Val>
+</I32>
+</Cluster>
+<I32>
+<Name>Number of buffers</Name>
+<Val>30</Val>
+</I32>
+</Cluster>
+<String>
+<Name>Experiment Script</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>Max frames in memory</Name>
+<Val>100000</Val>
+</I32>
+<Boolean>
+<Name>Save traces as binary</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Pixel Calibration Gain Image</Name>
+<Val>camera_calib_gain.bin</Val>
+</String>
+<String>
+<Name>Pixel Calibration Offset Image</Name>
+<Val>camera_calib_offset.bin</Val>
+</String>
+<Boolean>
+<Name>Use pixel calibration images</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Internal camera settings</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>Trace write interval</Name>
+<Val>100</Val>
+</I32>
+</Cluster>
