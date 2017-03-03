@@ -25,3 +25,157 @@ Setting: qi_radialsteps set to 256
 Setting: qi_angstepspq set to 109
 Setting: qi_maxradius set to 100
 Setting: downsample set to 0
+Setting: width set to 120
+Setting: height set to 120
+Setting: numThreads set to -1
+Setting: cuda_device set to -2
+Setting: com_bgcorrection set to 0
+Setting: zlut_minradius set to 4
+Setting: zlut_radial_coverage set to 2
+Setting: zlut_angular_coverage set to 0.7
+Setting: zlut_roi_coverage set to 1
+Setting: qi_iterations set to 7
+Setting: qi_minradius set to 4
+Setting: qi_radial_coverage set to 2
+Setting: qi_angular_coverage set to 0.7
+Setting: qi_roi_coverage set to 1
+Setting: qi_angstep_factor set to 1.2
+Setting: xc1_profileLength set to 1
+Setting: xc1_profileWidth set to 128
+Setting: xc1_iterations set to 32
+Setting: gauss2D_iterations set to 2
+Setting: gauss2D_sigma set to 3
+Setting: zlut_radialsteps set to 112
+Setting: zlut_angularsteps set to 263
+Setting: zlut_maxradius set to 60
+Setting: qi_radialsteps set to 128
+Setting: qi_angstepspq set to 65
+Setting: qi_maxradius set to 60
+Setting: downsample set to 0
+CUDA Hardware: GeForce GTX 1080. 
+# of CUDA processors: 20. Using 4 streams
+Warp size: 32. Max threads: 1024, Batch size: 540
+
+pre-streams: used = 38.00 MB, free = 3034.00 MB, total = 3072.00 MB
+
+Stream memory use: 29 MB on host, 37 MB device memory (29 for images). 
+
+post-streams: used = 282.00 MB, free = 2790.00 MB, total = 3072.00 MB
+
+Setting: width set to 120
+Setting: height set to 120
+Setting: numThreads set to -1
+Setting: cuda_device set to -2
+Setting: com_bgcorrection set to 0
+Setting: zlut_minradius set to 4
+Setting: zlut_radial_coverage set to 2
+Setting: zlut_angular_coverage set to 0.7
+Setting: zlut_roi_coverage set to 1
+Setting: qi_iterations set to 7
+Setting: qi_minradius set to 4
+Setting: qi_radial_coverage set to 2
+Setting: qi_angular_coverage set to 0.7
+Setting: qi_roi_coverage set to 1
+Setting: qi_angstep_factor set to 1.2
+Setting: xc1_profileLength set to 1
+Setting: xc1_profileWidth set to 128
+Setting: xc1_iterations set to 32
+Setting: gauss2D_iterations set to 2
+Setting: gauss2D_sigma set to 3
+Setting: zlut_radialsteps set to 112
+Setting: zlut_angularsteps set to 263
+Setting: zlut_maxradius set to 60
+Setting: qi_radialsteps set to 128
+Setting: qi_angstepspq set to 65
+Setting: qi_maxradius set to 60
+Setting: downsample set to 0
+CUDA Hardware: GeForce GTX 1080. 
+# of CUDA processors: 20. Using 4 streams
+Warp size: 32. Max threads: 1024, Batch size: 540
+
+pre-streams: used = 282.00 MB, free = 2790.00 MB, total = 3072.00 MB
+Allocating ResultManager with 0 beads, 7 motor columns and writeinterval 500
+
+Stream memory use: 29 MB on host, 37 MB device memory (29 for images). 
+
+post-streams: used = 522.00 MB, free = 2550.00 MB, total = 3072.00 MB
+
+Setting ZLUT size: 0 beads, 0 planes, 0 radialsteps
+Setting: width set to 120
+Setting: height set to 120
+Setting: numThreads set to -1
+Setting: cuda_device set to -2
+Setting: com_bgcorrection set to 0
+Setting: zlut_minradius set to 4
+Setting: zlut_radial_coverage set to 2
+Setting: zlut_angular_coverage set to 0.7
+Setting: zlut_roi_coverage set to 1
+Setting: qi_iterations set to 7
+Setting: qi_minradius set to 4
+Setting: qi_radial_coverage set to 2
+Setting: qi_angular_coverage set to 0.7
+Setting: qi_roi_coverage set to 1
+Setting: qi_angstep_factor set to 1.2
+Setting: xc1_profileLength set to 1
+Setting: xc1_profileWidth set to 128
+Setting: xc1_iterations set to 32
+Setting: gauss2D_iterations set to 2
+Setting: gauss2D_sigma set to 3
+Setting: zlut_radialsteps set to 112
+Setting: zlut_angularsteps set to 263
+Setting: zlut_maxradius set to 60
+Setting: qi_radialsteps set to 128
+Setting: qi_angstepspq set to 65
+Setting: qi_maxradius set to 60
+Setting: downsample set to 0
+CUDA Hardware: GeForce GTX 1080. 
+# of CUDA processors: 20. Using 4 streams
+Warp size: 32. Max threads: 1024, Batch size: 540
+
+pre-streams: used = 522.00 MB, free = 2550.00 MB, total = 3072.00 MB
+
+Stream memory use: 29 MB on host, 37 MB device memory (29 for images). 
+
+post-streams: used = 764.00 MB, free = 2308.00 MB, total = 3072.00 MB
+
+Setting ZLUT size: 0 beads, 200 planes, 112 radialsteps
+
+Setting: width set to 120
+Setting: height set to 120
+Setting: numThreads set to -1
+Setting: cuda_device set to -2
+Setting: com_bgcorrection set to 0
+Setting: zlut_minradius set to 4
+Setting: zlut_radial_coverage set to 2
+Setting: zlut_angular_coverage set to 0.7
+Setting: zlut_roi_coverage set to 1
+Setting: qi_iterations set to 7
+Setting: qi_minradius set to 4
+Setting: qi_radial_coverage set to 2
+Setting: qi_angular_coverage set to 0.7
+Setting: qi_roi_coverage set to 1
+Setting: qi_angstep_factor set to 1.2
+Setting: xc1_profileLength set to 1
+Setting: xc1_profileWidth set to 128
+Setting: xc1_iterations set to 32
+Setting: gauss2D_iterations set to 2
+Setting: gauss2D_sigma set to 3
+Setting: zlut_radialsteps set to 112
+Setting: zlut_angularsteps set to 263
+Setting: zlut_maxradius set to 60
+Setting: qi_radialsteps set to 128
+Setting: qi_angstepspq set to 65
+Setting: qi_maxradius set to 60
+Setting: downsample set to 0
+CUDA Hardware: GeForce GTX 1080. 
+# of CUDA processors: 20. Using 4 streams
+Warp size: 32. Max threads: 1024, Batch size: 540
+
+pre-streams: used = 522.00 MB, free = 2550.00 MB, total = 3072.00 MB
+Allocating ResultManager with 6 beads, 7 motor columns and writeinterval 500
+
+Stream memory use: 29 MB on host, 37 MB device memory (29 for images). 
+
+post-streams: used = 764.00 MB, free = 2308.00 MB, total = 3072.00 MB
+
+Setting ZLUT size: 0 beads, 0 planes, 0 radialsteps

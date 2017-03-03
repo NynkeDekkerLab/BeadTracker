@@ -1,7 +1,7 @@
 <Cluster>
-<Name>MeasureConfig</Name>
-<NumElts>20</NumElts>
-<Array>
+<Name>config</Name>
+<NumElts>21</NumElts>
+<Array> 
 <Name>Bead locations</Name>
 <Dimsize>1</Dimsize>
 <Cluster>
@@ -369,11 +369,11 @@ images per frame</Name>
 </Boolean>
 <String>
 <Name>Pixel Calibration Gain Image</Name>
-<Val>D:\BeadTracker\background.bin</Val>
+<Val>D:\development\BeadTracker\background.bin</Val>
 </String>
 <String>
 <Name>Pixel Calibration Offset Image</Name>
-<Val>D:\BeadTracker\background.bin</Val>
+<Val>D:\development\\BeadTracker\background.bin</Val>
 </String>
 <Boolean>
 <Name>Use pixel calibration images</Name>
