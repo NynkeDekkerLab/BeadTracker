@@ -1,2 +1,3 @@
 bin/SetupConfiguration.vi
+bin/MotorMain.vi
 bin/BeadTracker2.aliases
